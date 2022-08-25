@@ -3,7 +3,9 @@
 # Site Settings
 title: KIslitsyn Alexander
 url: 'https://kislitsyn.work'
-
+plugins:
+  - jekyll-multiple-languages-plugin
+  
 #change it according to your repository name
 # disabling since we are using a custom domain
 #baseurl: '/online-cv' 
@@ -34,3 +36,8 @@ compress_html: # - http://jch.penibelst.de/
 port: 4000
 host: 0.0.0.0
 safe: false
+
+# Languages
+languages: ["en", "de"]
+language_default: 'en'
+exclude_from_localizations: ["assets"]

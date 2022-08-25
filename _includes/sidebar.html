@@ -1,10 +1,10 @@
-{% assign sidebar = site.data.data.sidebar %}
+{% assign sidebar = site.data.data[site.lang].sidebar %}
 <div class="sidebar-wrapper">
 
   <div class="profile-container">
 
     {% if sidebar.name %}
-    <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
+    <img class="avatar" src="{{ site.baseurl_root }}/assets/images/{{ sidebar.avatar }}" alt="{% translate other.profile-picture %}" />
     {% endif %}
 
     {% if sidebar.name %}
@@ -19,14 +19,14 @@
 
   {% include contact.html %}
 
-  {% if sidebar.education %}
+  {% if site.data.data.sidebar.education %}
     {% include education.html %}
   {% endif %}
 
   {% include language.html %}
   {% include interests.html %}
 
-  {% if sidebar.about %}
+  {% if site.data.data.sidebar.about %}
     {% include about.html %}
   {% endif %}
 
