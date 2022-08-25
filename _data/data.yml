@@ -27,82 +27,53 @@ en:
     stack-overflow: 10281073/4lexkislitsyn # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: https://cv.kislitsyn.work/assets/kislitsyn.pdf
+    pdf:
 
   education:
-    - degree: MSc in Computer Science
+    - degree: Master's degree in Computer Science
       university: Vyatka State University
       time: 2016 - 2018
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Computer Science
+      
+    - degree: Bachelor's degree in Computer Science
       university: Vyatka State University
       time: 2012 - 2016
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
   
   experiences:
     - role: Backend Software Developer
       time: 2020 - present
       company: Paragon Software, Remote
-      details: |
-        TODO: add details
     - role: Software Developer
       time: 2016 - 2020
       company: Program center, Kirov
-      details: |
-        TODO: details
-  
-  projects:
-      title: Projects
-      intro: >
-        You can list your side projects or open source libraries in this
-        section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-      assignments:
-      - title: Title
-        link: "#hook"
-        tagline: "Summary"
 
   skills:
     title: Skills &amp; Proficiency
 
     toolset:
+ 
       - name: C#, .NET core (ASP.NET MVC, Web API)
-        level: 98%
-
-      - name: Git, GitLab, Team Foundation Server
-        level: 98%
-
-      - name: Entity Framework
         level: 90%
 
-      - name: PosgreSQL, MySQL, MSSQL
+      - name: Git, GitLab, Team Foundation Server
+        level: 90%
+
+      - name: Entity Framework
         level: 80%
 
+      - name: PosgreSQL, MySQL, MSSQL
+        level: 70%
+
       - name: NUnit, NLog, Polly
-        level: 80%
+        level: 70%
 
       - name: Apache Kafka, RabbitMQ, SignalR
         level: 60%
 
       - name: Docker, Kubernetes
-        level: 40%
+        level: 50%
 
       - name: Elasticsearch, Logstash, Kibana
-        level: 40%
+        level: 50%
 
       - name: Python, java
         level: 30%
@@ -111,7 +82,7 @@ en:
         level: 10%
 
       - name: Telegram.Bot
-        level: 10%
+        level: 15%
 
   footer: >
       Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
@@ -138,7 +109,7 @@ ru:
     stack-overflow: 10281073/4lexkislitsyn # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: https://kislitsyn.work/assets/kislitsyn-cv.pdf
+    pdf: https://cv.kislitsyn.work/bundle/kislitsyn.pdf
      
   education:
     - degree: Магистр
@@ -176,28 +147,28 @@ ru:
     title: Навыки &amp; умения
     toolset:
       - name: C#, .NET core (ASP.NET MVC, Web API)
-        level: 98%
-
-      - name: Git, GitLab, Team Foundation Server
-        level: 98%
-
-      - name: Entity Framework
         level: 90%
 
-      - name: PosgreSQL, MySQL, MSSQL
+      - name: Git, GitLab, Team Foundation Server
+        level: 90%
+
+      - name: Entity Framework
         level: 80%
 
+      - name: PosgreSQL, MySQL, MSSQL
+        level: 70%
+
       - name: NUnit, NLog, Polly
-        level: 80%
+        level: 70%
 
       - name: Apache Kafka, RabbitMQ, SignalR
         level: 60%
 
       - name: Docker, Kubernetes
-        level: 40%
+        level: 50%
 
       - name: Elasticsearch, Logstash, Kibana
-        level: 40%
+        level: 50%
 
       - name: Python, java
         level: 30%
@@ -206,7 +177,7 @@ ru:
         level: 10%
 
       - name: Telegram.Bot
-        level: 10%
+        level: 15%
   
   footer: >
     Разработал с <i class="fas fa-heart"></i> <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
