@@ -2,77 +2,69 @@
 # Be aware that even a small syntax error here can lead to failures in output.
 #
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
 en:
   sidebar:
-
       # Profile information
     name: Alexander Kislitsyn
     tagline: .NET Backend Developer
-      avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
       # Sidebar links
     email: offer@kislitsyn.work
     phone: +79991003939
     timezone: GMT+3
-      citizenship:
+    citizenship:
     website: kislitsyn.work #do not add http://
     linkedin: 4lexkislitsyn
     github: 4lexKislitsyn
     telegram: AlexKislitsyn # add your nickname without '@' sign
-      gitlab:
-      bitbucket:
+    gitlab:
+    bitbucket:
     twitter: '@4lexKislitsyn'
     stack-overflow: 10281073/4lexkislitsyn # Number/Username, e.g. 123456/alandoe
-      codewars:
-      goodreads: # Number-Username, e.g. 123456-alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
     pdf: https://cv.kislitsyn.work/assets/kislitsyn.pdf
 
-  career-profile:
-      title: Career Profile
-      summary: |
-        Summarise your career here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. You can [download this free resume/CV template here]().
-        Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-        penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-        Donec quam felis, ultricies nec, pellentesque eu.
-        Second paragraph if required.
   education:
-      - degree: MSc in Computer Science
+    - degree: MSc in Computer Science
       university: Vyatka State University
       time: 2016 - 2018
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
     - degree: BSc in Computer Science
       university: Vyatka State University
       time: 2012 - 2016
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+  
   experiences:
     - role: Backend Software Developer
       time: 2020 - present
       company: Paragon Software, Remote
-        details: |
+      details: |
         TODO: add details
     - role: Software Developer
       time: 2016 - 2020
       company: Program center, Kirov
-        details: |
+      details: |
         TODO: details
+  
   projects:
       title: Projects
       intro: >
@@ -81,219 +73,140 @@ en:
         Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
       assignments:
       - title: Title
-          link: "#hook"
+        link: "#hook"
         tagline: "Summary"
 
   skills:
-      title: Skills &amp; Proficiency
+    title: Skills &amp; Proficiency
 
-      toolset:
-        - name: Python & Django
-          level: 98%
+    toolset:
+      - name: C#, .NET core (ASP.NET MVC, Web API)
+        level: 98%
 
-        - name: Javascript & jQuery
-          level: 98%
+      - name: Git, GitLab, Team Foundation Server
+        level: 98%
 
-        - name: Angular
-          level: 98%
+      - name: Entity Framework
+        level: 90%
 
-        - name: HTML5 & CSS
-          level: 95%
+      - name: PosgreSQL, MySQL, MSSQL
+        level: 80%
 
-        - name: Ruby on Rails
-          level: 85%
+      - name: NUnit, NLog, Polly
+        level: 80%
 
-        - name: Sketch & Photoshop
-          level: 60%
+      - name: Apache Kafka, RabbitMQ, SignalR
+        level: 60%
+
+      - name: Docker, Kubernetes
+        level: 40%
+
+      - name: Elasticsearch, Logstash, Kibana
+        level: 40%
+
+      - name: Python, java
+        level: 30%
+
+      - name: DynamoDB, Azure Storage
+        level: 10%
+
+      - name: Telegram.Bot
+        level: 10%
 
   footer: >
       Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
 
-de:
+ru:
   sidebar:
-      # Profile information
-      name: Alan Doe
-      tagline: Full-Stack-Entwickler
-      avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    # Profile information
+    name: Кислицын Александр
+    tagline: .NET Backend Developer
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-      # Sidebar links
-      email: hello@webjeda.com
-      phone: 012 345 6789
-      timezone: America/Cancun Timezone
-      citizenship:
-      website: blog.webjeda.com #do not add http://
-      linkedin: alandoe
-      xing: alandoe
-      github: sharu725
-      telegram: # add your nickname without '@' sign
-      gitlab:
-      bitbucket:
-      twitter: '@webjeda'
-      stack-overflow: # Number/Username, e.g. 123456/alandoe
-      codewars:
-      goodreads: # Number-Username, e.g. 123456-alandoe
-      pdf: http://www.africau.edu/images/default/sample.pdf
-
-      languages:
-        - idiom: Englisch
-          level: Native
-
-        - idiom: Französisch
-          level: Professional
-
-        - idiom: Spanisch
-          level: Professional
-
-      interests:
-        - item: Klettern
-          link:
-
-        - item: Snowboarden
-          link:
-
-        - item: Kochen
-          link:
-
-  career-profile:
-      title: Berufsbild
-      summary: |
-        Summarise your career here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. You can [download this free resume/CV template here]().
-        Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-        penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-        Donec quam felis, ultricies nec, pellentesque eu.
-        Second paragraph if required.
+    # Sidebar links
+    email: offer@kislitsyn.work
+    phone: +79991003939
+    timezone: GMT+3
+    citizenship:
+    website: kislitsyn.work #do not add http://
+    linkedin: 4lexkislitsyn
+    github: 4lexKislitsyn
+    telegram: AlexKislitsyn # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: '@4lexKislitsyn'
+    stack-overflow: 10281073/4lexkislitsyn # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: https://kislitsyn.work/assets/kislitsyn-cv.pdf
+     
   education:
-      - degree: MSc in Informatik
-        university: Universität London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Angewandter Mathematik
-        university: Universität Bristol
-        time: 2007 - 2011
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+    - degree: Магистр
+      university: Вятский государственный университет
+      time: 2016 - 2018
+      details: |
+        Факульттет Автоматики и Вычислительной техники; направление Интеллектуальные системы
+    - degree: Бакалавр
+      university: Вятский государственный университет
+      time: 2012 - 2016
+      details: |
+        Факульттет Автоматики и Вычислительной техники; 
+        специальность ПО средств вычислительной техники и автоматиированных систем
+  
   experiences:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior-Software-Entwickler
-        time: 2014 - 2015
-        company: Google, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
-        details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-  projects:
-      title: Projekte
-      intro: >
-        In diesem Abschnitt können Sie Ihre Nebenprojekte oder Open-Source-Bibliotheken
-        auflisten. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-      assignments:
-        - title: Velocity
-          link: "#hook"
-          tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-        - title: DevStudio
-          link: "#"
-          tagline: "A responsive website template designed to help web developers/designers market their services."
-
-        - title: Tempo
-          link: "#"
-          tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-        - title: Atom
-          link: "#"
-          tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-        - title: Delta
-          link: "#"
-          tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-  publications:
-      title: Veröffentlichungen
-      intro: |
-        In diesem Bereich können Sie Ihre Veröffentlichungen auflisten. Lorem ipsum dolor sit
-        amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-        bibendum fringilla a eu lectus.
-      papers:
-        - title: The Art of Computer Programming
-          link: "#"
-          authors: Donald E. Knuth
-          conference: Addison-Wesley, 1968
-
-        - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-          link: "#"
-          authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-          conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-        - title: A syntax directed compiler for Algol 60
-          link: "#"
-          authors: Edgar T. Irons
-          conference: "Comm. ACM 4 (1961), 51–55"
+    - role: Backend разработчик
+      time: 2020 - н.в.
+      company: Paragon Software, Remote
+      details: |
+        Разработка сервисов для B2B и e-commerce направлений. Расширение сервиса авторизации и выпуска JWT токенов;
+        добавление поддержки авторизации по протоколу OAuth 2.0 через социальные сети (Facebook, google, microsoft). Полный
+        цикл разработки и сопровождения сервисов для маркетплейса: от получения спецификации, до вывода на площадки и
+        показа разработчикам и тестировщикам. Внедрение сервиса для поиска продуктов магазина через Elasticsearch.
+        Унификация событий для datalake и добавление фильтров в logstash для приведения старых событий к новому виду
+    - role: Разработчик программного обеспечения
+      time: 2016 - 2020
+      company: Программный центр, Киров
+      details: |
+        Разработка программного обеспечения для кадастровых инженеров, состоящее из настольного приложения и веб
+        сервисов для взаимодействия с государственными органами. Помимо разработки помогал в онбординге и менторстве
+        молодых сотрудников. Участвовал в оптимизации процессов компании, внедрении git-flow и настройке автоматических
+        сборок продукта.
 
   skills:
-      title: Fähigkeiten &amp; Kompetenz
+    title: Навыки &amp; умения
+    toolset:
+      - name: C#, .NET core (ASP.NET MVC, Web API)
+        level: 98%
 
-      toolset:
-        - name: Python & Django
-          level: 98%
+      - name: Git, GitLab, Team Foundation Server
+        level: 98%
 
-        - name: Javascript & jQuery
-          level: 98%
+      - name: Entity Framework
+        level: 90%
 
-        - name: Angular
-          level: 98%
+      - name: PosgreSQL, MySQL, MSSQL
+        level: 80%
 
-        - name: HTML5 & CSS
-          level: 95%
+      - name: NUnit, NLog, Polly
+        level: 80%
 
-        - name: Ruby on Rails
-          level: 85%
+      - name: Apache Kafka, RabbitMQ, SignalR
+        level: 60%
 
-        - name: Sketch & Photoshop
-          level: 60%
+      - name: Docker, Kubernetes
+        level: 40%
 
+      - name: Elasticsearch, Logstash, Kibana
+        level: 40%
+
+      - name: Python, java
+        level: 30%
+
+      - name: DynamoDB, Azure Storage
+        level: 10%
+
+      - name: Telegram.Bot
+        level: 10%
+  
   footer: >
-      Entworfen mit <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    Разработал с <i class="fas fa-heart"></i> <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
