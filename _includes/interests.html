@@ -1,9 +1,9 @@
-{% assign interests = site.translations[site.lang].sidebar.interests %}
+{% assign interests = site.data.data[site.lang].sidebar.interests %}
 {% if interests %}
 <div class="interests-container container-block">
 
   <h2 class="container-block-title">
-    Interests
+    {% translate titles.interests %}
   </h2>
 
   <ul class="list-unstyled interests-list">
