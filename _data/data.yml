@@ -14,8 +14,7 @@ en:
 
       # Sidebar links
     email: offer@kislitsyn.work
-    phone: +79991003939
-    timezone: GMT+3
+    timezone: GMT+5
     citizenship:
     website: kislitsyn.work #do not add http://
     linkedin: 4lexkislitsyn
@@ -41,10 +40,10 @@ en:
   experiences:
     - role: Backend Software Developer
       time: 2020 - present
-      company: Paragon Software, Remote
+      company: Paragon Software, Germany (Remote)
     - role: Software Developer
       time: 2016 - 2020
-      company: Program center, Kirov
+      company: Program center, Russia
 
   skills:
     title: Skills &amp; Proficiency
