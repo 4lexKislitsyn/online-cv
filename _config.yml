@@ -38,6 +38,6 @@ host: 0.0.0.0
 safe: false
 
 # Languages
-languages: ["ru", "en"]
-default_lang: 'ru'
+languages: ["en", "ru"]
+default_lang: 'en'
 exclude_from_localizations: ["assets"]

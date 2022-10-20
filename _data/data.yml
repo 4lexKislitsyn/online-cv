@@ -22,11 +22,11 @@ en:
     telegram: AlexKislitsyn # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: #'@4lexKislitsyn'
+    twitter: '@4lexKislitsyn'
     stack-overflow: 10281073/4lexkislitsyn # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf:
+    pdf: https://kislitsyn.work/bundle/kislitsyn-cv-en.pdf
 
   education:
     - degree: Master's degree in Computer Science
