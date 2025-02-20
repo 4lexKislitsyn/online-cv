@@ -39,7 +39,10 @@ en:
   
   experiences:
     - role: Backend Software Developer
-      time: 2020 - present
+      time: 2024 - 2025
+      company: Payler (Remote)
+    - role: Backend Software Developer
+      time: 2020 - 2024
       company: Paragon Software, Germany (Remote)
     - role: Software Developer
       time: 2016 - 2020
@@ -98,17 +101,17 @@ ru:
     phone: +79991003939
     timezone: GMT+3
     citizenship:
-    website: kislitsyn.work #do not add http://
+    website: # kislitsyn.work #do not add http://
     linkedin: 4lexkislitsyn
     github: 4lexKislitsyn
     telegram: AlexKislitsyn # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@4lexKislitsyn'
-    stack-overflow: 10281073/4lexkislitsyn # Number/Username, e.g. 123456/alandoe
+    twitter: # '@4lexKislitsyn'
+    stack-overflow: # 10281073/4lexkislitsyn # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: https://kislitsyn.work/bundle/kislitsyn-cv.pdf
+    pdf: # https://kislitsyn.work/bundle/kislitsyn-cv.pdf
      
   education:
     - degree: Магистр
@@ -124,8 +127,16 @@ ru:
         специальность ПО средств вычислительной техники и автоматиированных систем
   
   experiences:
+  
     - role: Backend разработчик
-      time: 2020 - н.в.
+      time: 2024 - 2025
+      company: Payler, Remote
+      details: |
+        Разработка внутренних сервисов для оптимизации процесса обработки платежных запросов и хранения авторизационных данных.
+        Сервис работал через gRPC с дополнительной возможностью обраения через Swagger при помощи JSON-Transcoding.
+        Дополнительным функционалом была разработка сервисов для взаимодействия с платежными провайдерами.
+    - role: Backend разработчик
+      time: 2020 - 2024
       company: Paragon Software, Remote
       details: |
         Разработка сервисов для B2B и e-commerce направлений. Расширение сервиса авторизации и выпуска JWT токенов;
@@ -145,14 +156,11 @@ ru:
   skills:
     title: Навыки &amp; умения
     toolset:
-      - name: C#, .NET core (ASP.NET MVC, Web API)
+      - name: C#, .NET core (ASP.NET MVC, Web API), Entity Framework
         level: 90%
 
       - name: Git, GitLab, Team Foundation Server
         level: 90%
-
-      - name: Entity Framework
-        level: 80%
 
       - name: PosgreSQL, MySQL, MSSQL
         level: 70%
@@ -169,7 +177,7 @@ ru:
       - name: Elasticsearch, Logstash, Kibana
         level: 50%
 
-      - name: Python, java
+      - name: Python, Java, GO
         level: 30%
 
       - name: DynamoDB, Azure Storage
